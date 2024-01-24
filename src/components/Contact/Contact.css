@@ -1,0 +1,27 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(50, 47, 47);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-icons {
+    gap: 15px;
+    font-size: 30px;
+  }
+}
+
+.footer-note {
+  font-size: 15px;
+  color: grey;
+}

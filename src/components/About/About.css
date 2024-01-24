@@ -1,0 +1,95 @@
+
+.home-bg {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 7% 0px 7%;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  order: 1;
+}
+
+.post {
+  color: #FDC435;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.profile-intro-heading {
+  font-size: 30px;
+}
+.profile-summary {
+  text-align: justify;
+  width: 86%;
+  font-size: 20px;
+  align-self: center;
+}
+.buttons-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.visit-buttons {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+}
+.project-button {
+  background-color: #FDC435;
+}
+.project-linkedln-button {
+  border: 1px solid black;
+  background-color: transparent;
+}
+.image-section {
+  text-align: center;
+  order: 0;
+  overflow: hidden;
+  padding: 30px;
+  align-self: center;
+}
+.profile-img {
+  width: 90%;
+  border-radius: 500% 250% 405% 490%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .home-bg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .intro-section {
+    order: 0;
+    position: relative;
+    top: 45px;
+    text-align: start;
+  }
+  .profile-summary {
+    width: 86%;
+    font-size: 18px;
+    align-self: flex-start;
+  }
+  .buttons-section {
+    align-self: flex-start;
+  }
+  .image-section {
+    position: relative;
+    top: 20px;
+    scale: 1.3;
+    order: 1;
+  }
+  .profile-img {
+    width: 100%;
+  }
+}

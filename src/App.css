@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bg-container {
+  min-height: 93vh;
+  padding: 0px 0px 0px 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  display: flex;
+}
+.footer-vector {
+  width: 100%;
+}
+
+.focus:hover {
+  scale: 1.1;
+  color: #fdc435;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fdc435;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
