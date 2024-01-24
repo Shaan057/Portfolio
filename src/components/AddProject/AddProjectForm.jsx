@@ -34,15 +34,15 @@ const AddProjectForm = () => {
     <form className='form' onSubmit={onAddButtonClicked}>
         <div className='input-section'>
             <label htmlFor='projectName'>Project</label>
-            <input id='projectName' className='name-input' type='text' value={project} onChange={(e)=>setProject(e.target.value)}/>
+            <input id='projectName' className='name-input' type='text' value={project} onChange={(e)=>setProject(e.target.value)} required/>
         </div>
            <div className='input-section'>
             <label htmlFor='link'>Project Link</label>
-            <input id='link' className='name-input' type='text' value={projectLink} onChange={(e)=>setProjectLink(e.target.value)}/>
+            <input id='link' className='name-input' type='text' value={projectLink} onChange={(e)=>setProjectLink(e.target.value)} required/>
         </div>
            <div className='input-section'>
             <label htmlFor='description'>Description</label>
-            <textarea value={description} onChange={(e)=>setDescription(e.target.value)} id='description' className='text-area' type='text'/>
+            <textarea value={description} onChange={(e)=>setDescription(e.target.value)} id='description' className='text-area' type='text' required/>
         </div>
         <button className='add-button' type='submit'>Add</button>
     </form>
