@@ -18,7 +18,9 @@ const About = () => {
             React | Node.js | Express.js | MongoDB | SQL | Python | HTML | CSS | Bootstrap.
             Over the past 9 months, I've dedicated myself to mastering these technologies for a career in web development.</p>
              <div className='buttons-section'>
+              <a href='#projects'>
                 <button className='visit-buttons project-button' type='button'>Projects</button>
+              </a>
                 <a href='https://www.linkedin.com/in/roshanpatil05/' target='_blank'>
                 <button className='visit-buttons project-linkedln-button' type='button'>LinkedIn
                 </button>
